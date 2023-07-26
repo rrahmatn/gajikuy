@@ -1,0 +1,27 @@
+.bungkusNavbar{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background-color: #ca4a48;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    top: 0;
+}
+.bungkusNavbar p{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+}
+.linkProf{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}

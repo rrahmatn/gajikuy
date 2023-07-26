@@ -1,0 +1,403 @@
+.bungkusUserManager {
+    width: 100%;
+    height: fit-content;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #5A5858;
+    overflow: auto;
+}
+
+/* Navbar */
+.searchBar {
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ca4a48;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.iniSearchBar {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 60%;
+    background-color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.iniSearchBar input {
+    outline: none;
+    border: none;
+    background-color: none;
+    height: 100%;
+    width: 70px;
+    letter-spacing: 1px;
+
+}
+
+.iniSearchBar input:focus {
+    width: 250px;
+    transition: 500ms;
+}
+
+.search {
+    height: 100%;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Of Navbar */
+
+.contentUserManager {
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.isiContentDiUserManager {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.infoUserManager {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+}
+
+.totalEmployee,
+.totalGajiSemua,
+.addEmployee {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.totalGajiSemua {
+    border-right: 0.5px solid black;
+    border-left: 0.5px solid black;
+}
+
+.totalEmployee h5,
+.totalGajiSemua h5,
+.addEmployee h5 {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    background-color: #00A89D;
+    color: white;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    display: grid;
+    place-items: center;
+}
+
+.totalEmployee p,
+.totalGajiSemua p,
+.addEmployee p {
+    overflow: auto;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    overflow: auto;
+}
+
+.tambahKaryawan {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #00A89D;
+}
+
+/* end of Info Karyawan */
+
+.cardKaryawan {
+    width: 95%;
+    height: 150px;
+    background-color: white;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 10px;
+    box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+}
+
+.fotoCardUser {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fotoCardUser img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.fotoCardUser p {
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.infoCardUser {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 5px 20px 20px;
+}
+
+.infoCardUser h4 {
+    width: 100%;
+    height: 40px;
+    overflow: auto;
+    margin: 0px 0px 7px 0px;
+}
+
+.infoCardUser h3 {
+    letter-spacing: 1.5px;
+}
+
+.buttonCardUser {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+
+}
+
+.buttonUser {
+    width: 100%;
+    height: 120px;
+    color: #00A89D;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tambah Karyawan */
+.bungkusTambah {
+    width: 100%;
+    height: 800px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #5A5858;
+    overflow: auto;
+}
+
+.navTambahKaryawan {
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ca4a48;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.backTambahKaryawan {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.formTambahKaryawan {
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+}
+
+.formTambahKaryawan form table {
+    text-align: start;
+}
+
+.formTambahKaryawan h2 {
+    margin: 20px auto;
+
+}
+
+.formTambahKaryawan form table tr {
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.formTambahKaryawan form table tr td {
+    padding: 0 10px;
+}
+
+.formTambahKaryawan form table tr td input {
+    height: 30px;
+    outline: none;
+    width: 180px;
+}
+
+.submitTambahKaryawan {
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    color: white;
+    background-color: #00A89D;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Edit Karyawan */
+.bungkusEditKaryawan {
+    width: 100%;
+    height: 800px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: #5A5858;
+    overflow: auto;
+}
+.navEditKaryawan{
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ca4a48;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: center;
+}
+.formEditKaryawan{
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 7px 6px 18px 1px rgba(0, 0, 0, 0.15);
+}
+.formEditKaryawan form table {
+    text-align: start;
+}
+
+.formEditKaryawan h2 {
+    margin: 20px auto;
+
+}
+
+.formEditKaryawan form table tr {
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.formEditKaryawan form table tr td {
+    padding: 0 10px;
+}
+
+.formEditKaryawan form table tr td input {
+    height: 30px;
+    outline: none;
+    width: 180px;
+    text-align: start;
+    padding-left: 5px;
+}
+.formEditKaryawan form table tr td label{
+    text-align: start;
+} 
+.tombolUdahEdit{
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    margin: 40px auto 20px auto;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    color: white;
+    background-color: #00A89D;
+    border: none;
+}
+
+/* End Of Edit Karyawan */

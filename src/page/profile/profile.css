@@ -1,0 +1,244 @@
+.navProfile{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background-color: #ca4a48;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0;
+}
+.backProfile{
+    width: 15%;
+    height: 100%;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bungkusProfile{
+    width: 100%;
+    height: 800px;
+    padding-top: 40px;
+    color:#5A5858;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tumbProfile{
+    width: 95%;
+    margin: 0px auto;
+    height: 130px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    box-shadow: 7px 6px 18px 1px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 7px 6px 18px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 7px 6px 18px 1px rgba(0,0,0,0.15);
+}
+.fotoProfile{
+    width: 110px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotoProfile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.judulNamaJabatan{
+    padding-left: 10px;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: scroll;
+}
+.judulNamaJabatan h4{
+    width: 100%;
+    height: 30%;
+    overflow: scroll;
+}
+.tombolGaji{
+    width: 10%;
+    height: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#5A5858;
+    margin-right: 20px;
+}
+.biodata{
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    box-shadow: 7px 6px 18px 1px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 7px 6px 18px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 7px 6px 18px 1px rgba(0,0,0,0.15);
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 20px 10px;
+}
+.biodata form{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.biodata form table{
+    display: flex;
+
+    flex-direction: column;
+    gap: 10px;
+}
+.biodata form table tr{
+    margin-top: 10px;
+    height: 20px;
+}
+.biodata form table tr td{
+    width: 90%;
+    padding: 0 10px;
+    height: 40px;
+}
+.biodata form table input{
+    height: 30px;
+    border: 0.5px solid black;
+    border-radius: 4px;
+    width: 200px;
+    padding-left: 5px;
+    outline: none;
+    overflow: scroll;
+}
+.biodata form button{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 6px;
+    margin: 30px auto 0px auto;
+    background-color: #00A89D;
+}
+.buttonPassword{
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 20px auto;
+    text-decoration: none;
+    background-color: #00A89D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.ubahPassword{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.ubahPassword form button{
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 20px auto 0 auto;
+    text-decoration: none;
+    background-color: #00A89D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.ubahPassword form{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.ubahPassword table {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.ubahPassword form table tr{
+    height: 40px;
+}
+.ubahPassword form label{
+    font-size: 16px;
+}
+.gaji{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.gaji form button{
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 20px auto 0 auto;
+    text-decoration: none;
+    background-color: #00A89D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.gaji form{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.gaji table {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+.gaji form table tr{
+    height: 40px;
+}
+.gaji form label{
+    font-size: 13px;
+    font-weight: 700;
+}
+.backToBiodata{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}

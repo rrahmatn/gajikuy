@@ -1,0 +1,31 @@
+.bungkusBottombar{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background-color: #ca4a48;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+.bottomNav{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    padding-top: 4px;
+}
+#activeBot{
+    border-top: 4px solid #00A89D;
+    padding-top: 1px;
+    color: aliceblue;
+}
+.bottomNav p{
+    font-size: 10px;
+}

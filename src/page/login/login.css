@@ -1,0 +1,92 @@
+.bungkusLogin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+}
+.loginAtas{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.loginAtas img{
+    width: 90%;
+
+}
+.loginAtas p{
+    font-size: 32px;
+    margin: 50px auto;
+    color: #FF5F5D;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.formLogin{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+}
+.formLogin form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.formLogin form input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 85%;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+
+}
+.formLogin form button{
+    width: 40%;
+    height: 55px;
+    border-radius: 50px;
+    background-color: #FF5F5D;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    margin: 10px 3px 0 0px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    float: right;
+}
+.formLogin form button:hover{
+    background-color: #ca4a48;
+    color: white;
+    
+}
+.bungkusInputLogin{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 15px;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 80px;
+    font-size: 30px;
+    margin: 15px auto;
+}
+.buttonPw{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
